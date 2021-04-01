@@ -1,3 +1,4 @@
+<link  href="../public/assets/css/style.css">
 <h1>Eat-Da-Burger!</h1>
 
 <h2> Burgers available!</h2>
@@ -12,7 +13,7 @@
 
 <h2 class="devoured" >  Burgers that have been devoured!</h2>
 
-<ul>
+<ul class="devouredBurgs">
     {{#each burgers}}
         {{#if devoured}}
             {{> burgers/burgers-block devoured=false}}

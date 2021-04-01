@@ -7,13 +7,26 @@ li {
   .label {
     font-weight: bold;
   }
-  
+  h1 {
+    text-align: center;
+  }
   .create-update-form {
     padding: 5px;
     margin: 5px;
     background: aqua;
   }
+  .devoured{
+    text-align: right;
+  }
+  .devouredBurgs{
+  text-align: right;
+  }
+    
   
+
+  html {
+    background-color: chocolate;
+  }
   .form-group {
     margin-bottom: 5px;
   }
